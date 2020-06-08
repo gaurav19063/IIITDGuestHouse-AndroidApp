@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp"
+        tools:context=".Activities.PaymentActivity"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/paymentactivity_payoptions"
+            android:textSize="40sp"
+            android:textColor="#3FADA8"
+            android:fontFamily="@font/opensans_regular"/>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/paymentActivity_radio_cash"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:fontFamily="@font/opensans_regular"
+                android:text="@string/paymentActivity_cash"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:background="@drawable/payment_radiobackground"
+                />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/paymentActivity_radio_debitcredit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/paymentActivity_onlineErp"
+                android:textSize="16sp"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:background="@drawable/payment_radiobackground"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/opensans_regular"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="@string/paymentActivity_DebitCredit"
+                android:background="@drawable/payment_radiobackground"/>
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/opensans_regular"
+                android:padding="10dp"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:layout_gravity="start"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:text="@string/paymentActivity_ProjectTeam"
+                android:background="@drawable/payment_radiobackground"
+                tools:ignore="RtlCompat" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/paymentActivity_radio_college"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:gravity="center_vertical"
+                android:layoutDirection="rtl"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/opensans_regular"
+                android:layout_gravity="start"
+                android:padding="10dp"
+                android:text="@string/paymentActivity_College"
+                android:textSize="16sp"
+                android:background="@drawable/payment_radiobackground"/>
+
+        </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="end|bottom"
+                android:orientation="vertical">
+        <Button
+            android:id="@+id/paymentActivity_button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/paymentActivity_Submit"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/paymentactivity_button1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

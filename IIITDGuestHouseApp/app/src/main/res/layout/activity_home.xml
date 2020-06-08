@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".Activities.HomeActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:padding="5dp"
+        android:id="@+id/homeactivity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/homeactivity_dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        app:dotsColor="@android:color/white"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="30dp"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="12dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeColor="@android:color/white"
+        app:dotsStrokeWidth="2dp"
+        app:dotsWidthFactor="2.5" />
+
+   <!-- Initially - android:layout_marginTop="-30dp"-->
+    <!--TODO dp -> sp    -->
+    <TextView
+        android:id="@+id/homeactivity_textView_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homeactivity_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_gravity="center">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+        <!--    TODO adjust at bottom-->
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:textSize="12dp"
+        android:layout_gravity="bottom|center"
+        android:textColor="@android:color/white"
+        android:text="@string/homeActivity_copyright"
+        android:gravity="center"
+        />
+
+</LinearLayout>

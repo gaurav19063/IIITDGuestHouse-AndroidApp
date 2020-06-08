@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:layout_gravity="center_vertical"
+    tools:context=".Activities.BookingActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:text="Date And Room"
+
+        android:textColor="#3FADA8"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingStart="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView android:id="@+id/BookingActivity_TextView_Text"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="@string/bookingactivity_text"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/opensans_regular"
+            android:textColor="#3FADA8"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/BookingActivity_Button_StartDate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/theme_button_background"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:text="@string/bookingactivity_startdate"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/BookingActivity_Button_EndDate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/theme_button_background"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center_vertical"
+                android:paddingStart="30dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:text="@string/bookingactivity_enddate"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+        </LinearLayout>
+    <TextView android:id="@+id/BookingActivity_TextView_"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/bookingactivity_textRoom"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:textColor="#3FADA8"
+        android:fontFamily="@font/opensans_regular"
+        android:textSize="20sp"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent">
+
+        <RadioGroup android:id="@+id/BookingActivity_RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/theme_button_background"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center_vertical"
+                android:text="@string/bookingactivity_Radio1"
+                android:layout_marginRight="10dp"
+                android:buttonTint="#3FADA8"/>
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:text="@string/bookingactivity_Radio2"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/theme_button_background"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/opensans_regular"
+                android:buttonTint="#3FADA8"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="end|bottom"
+        android:orientation="vertical" >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            android:backgroundTint="#3FADA8"
+            android:elevation="0dp"
+            app:borderWidth="0dp"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

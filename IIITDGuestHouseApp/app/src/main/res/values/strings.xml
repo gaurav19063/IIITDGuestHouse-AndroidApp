@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">IIITD - Guest House App</string>
+    <string name="bookingactivity_text">Select Dates</string>
+    <string name="bookingactivity_textRoom">Select Room Type</string>
+    <string name="bookingactivity_startdate">Arrival Date</string>
+    <string name="bookingactivity_enddate">Departure Date</string>
+    <string name="bookingactivity_nextactivity">Next</string>
+    <string name="bookingactivity_Radio1">Suits Room</string>
+    <string name="bookingactivity_Radio2">Single Room</string>
+
+
+    <string name="paymentActivity_cash">Cash</string>
+    <string name="paymentActivity_onlineErp">Online ERP</string>
+    <string name="paymentActivity_DebitCredit">Debit/Credit Card</string>
+    <string name="paymentActivity_ProjectTeam">Project Team</string>
+    <string name="paymentActivity_College">College</string>
+    <string name="paymentActivity_Submit">Submit</string>
+    <string name="paymentactivity_payoptions">Payment Options</string>
+
+
+    <string name="homeActivity_facilities">Facilities</string>
+    <string name="homeActivity_book_room">Book Room</string>
+    <string name="homeActivity_details">Details</string>
+    <string name="homeActivity_feedback">Feedback</string>
+
+    <string name="homeActivity_toolBarName">IIITD Guest House</string>
+    <string name="homeActivity_welcomeMessage">Welcome, %1$s</string>
+    <string name="homeActivity_copyright">Copyright © 2019. IIIT-Delhi</string>
+
+
+    <string name="loginActivity_logo_text">GUEST HOUSE</string>
+
+
+    <!--transactions    -->
+    <string name="login_transaction_logo_big">loginActivity_transaction</string>
+    <string name="login_transaction_logo_small">loginActivity_transaction_iiitd_logo_name</string>
+    <string name="logintransaction_text">loginActivity_transaction_guest_house</string>
+    <string name="userActivity_title_enter_details">Enter Details</string>
+    <string name="userDetails_edittext_name">Name</string>
+    <string name="userDetails_edittext_email">E-Mail</string>
+    <string name="userDetails_edittext_number">Employee Number/ Student Roll Number</string>
+    <string name="userDetails_edittext_self_visitor">Self/ Visitor</string>
+    <string name="userDetails_edittext_visitors_name">Visitors Name</string>
+    <string name="userDetails_edittext_visitors_purpose">Visitors Purpose</string>
+    <string name="userDetails_edittext_radiobutton_self">Self</string>
+    <string name="userDetails_edittext_radiobutton_visitor">Visitor</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "957363277650",
+    "firebase_url": "https://iiitdguesthouseapp.firebaseio.com",
+    "project_id": "iiitdguesthouseapp",
+    "storage_bucket": "iiitdguesthouseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957363277650:android:6839e0b3ac2baef5e6348b",
+        "android_client_info": {
+          "package_name": "in.ac.iiitd.iiitd_guesthouseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957363277650-a5ddiuiu1ueaekfgf61jmc3hecg15k0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.iiitd.iiitd_guesthouseapp",
+            "certificate_hash": "954663d00342cae96dc18f2e9b4b5bfc6f682a2c"
+          }
+        },
+        {
+          "client_id": "957363277650-iipstv6cog181t5ji8j27rbjfububgc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdu7spX6LrF0tHzwXeQb4ILpIcq9wda3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957363277650-iipstv6cog181t5ji8j27rbjfububgc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
